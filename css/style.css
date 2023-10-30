@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #002339;
+    color: #fff;
+}
+
+.container {
+    width: 40%;
+    margin: 15%;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h1 span {
+    border-bottom: 3px solid #019f55;
+    padding-bottom: 10px;
+
+}
+
+.display {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+
+}
+
+.display img {
+    width: 30px;
+    height: 35px;
+    cursor: pointer;
+
+
+}
+
+#password {
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+
+
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+#btn img {
+    width: 28px;
+    margin-right: 10px;
+}
+
+#btn {
+    width: 45%;
+    border: 0;
+    outline: 0;
+    background-color: #019f55;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#btnDelet {
+    width: 12%;
+    border: 0;
+    outline: 0;
+    background-color: #c01906;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+#btnDelet img {
+    width: 22px;
+    margin-right: 5px;
+}

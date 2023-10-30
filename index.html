@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project1</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1> Generat a <span>Random Password</span> </h1>
+        <div class="display">
+            <input type="text" placeholder="password" id="password">
+            <img src="./img/copy.png" id="copy" onclick="copyPassword()">
+        </div>
+        <div class="btns">
+            <div id="btn" onclick="generatePassword()"> <img src="./img/generate.png">Generat password</div>
+            <div id="btnDelet" onclick="deletePassword()">delete</div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
